@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main () {
+    int a;
+    cout<<"Author:Arik Abtahi"<<endl;
+    cout<<"--------------------"<<endl;
+    cout<<"A simple proggrame on even and odd tester"<<endl;
+    cout<<"--------------------------------------------"<<endl;
+    cout<<"Please enter the number you wanna test : "<<endl;
+    cin>>a;
+    if(a%2==0)
+        cout<<"Your number is even"<<endl;
+    else cout<<"Your number is odd"<<endl;
+    cout<<"Thank you so much";
+
+    cin.clear();
+    cin.ignore();
+    cin.get();
+
+return 0;}
